@@ -1,0 +1,7 @@
+//arch = zynq; split = false; format = BIN
+the_ROM_image:
+{
+	[bootloader]/home/maruf/fsbl/fsbl.sdk/fsblnya/Debug/fsblnya.elf
+	/home/maruf/fsbl/fsbl.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit
+	/home/maruf/fsbl/fsbl.sdk/sdknya/Debug/sdknya.elf
+}
