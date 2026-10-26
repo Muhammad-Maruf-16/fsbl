@@ -7363,3 +7363,46 @@ java.lang.NullPointerException
 
 !ENTRY com.xilinx.sdk.utils 1 0 2026-10-24 16:08:45.557
 !MESSAGE Updating toolusage
+!SESSION 2026-10-26 09:43:55.097 -----------------------------------------------
+eclipse.buildId=2019.1
+java.version=1.8.0_112
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -data /home/maruf/fsbl/fsbl.sdk
+
+!ENTRY org.eclipse.core.resources 2 10035 2026-10-26 09:43:57.300
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.ui 2 0 2026-10-26 09:43:58.287
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2026-10-26 09:43:58.287
+!MESSAGE Commands should really have a category: plug-in='com.xilinx.sdk.appwiz', id='com.xilinx.sdk.app.commands.ChangeAtfBuiltReferences', categoryId='com.xilinx.sdk.app.commands.category'
+
+!ENTRY org.eclipse.ui 2 0 2026-10-26 09:43:59.607
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2026-10-26 09:43:59.607
+!MESSAGE Commands should really have a category: plug-in='com.xilinx.sdk.appwiz', id='com.xilinx.sdk.app.commands.ChangeAtfBuiltReferences', categoryId='com.xilinx.sdk.app.commands.category'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-10-26 09:44:10.413
+!MESSAGE XSCT Command: [::hsi::utils::init_repo], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-10-26 09:44:10.413
+!MESSAGE XSCT Command: [set sdk::sdk_chan tcfchan#0], Thread: Thread-16
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-10-26 09:44:10.424
+!MESSAGE XSCT command with result: [set sdk::sdk_chan tcfchan#0], Result: [null, tcfchan#0]. Thread: Thread-16
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-10-26 09:44:10.426
+!MESSAGE XSCT Command: [setws /home/maruf/fsbl/fsbl.sdk], Thread: Thread-16
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-10-26 09:44:11.217
+!MESSAGE XSCT command with result: [::hsi::utils::init_repo], Result: [null, ]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-10-26 09:44:11.219
+!MESSAGE XSCT command with result: [setws /home/maruf/fsbl/fsbl.sdk], Result: [null, ]. Thread: Thread-16
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-10-26 09:44:11.252
+!MESSAGE XSCT Command: [::hsi::utils::openhw /home/maruf/fsbl/fsbl.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-10-26 09:44:15.923
+!MESSAGE XSCT command with result: [::hsi::utils::openhw /home/maruf/fsbl/fsbl.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: Worker-6
